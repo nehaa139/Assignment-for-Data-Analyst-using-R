@@ -66,10 +66,10 @@ ggscatter(batteries, x = "SOC", y = "Temperature",
           conf.int = TRUE,   # Add confidence interval
           cor.coef = TRUE,   # Add correlation coefficient
           cor.method = "pearson",
-          xlab = "SOC", ylab = "Temprature", 
+          xlab = "SOC", ylab = "Temperature", 
           title = "Correlation plot between SOC and Temperature")    
 
 #The p-value of the test is 2.2e-16, which is less than the significance level alpha = 0.05. 
-#We can conclude that Equivalent_cycle and SOH are weakly (negatively) correlated with a correlation 
+#We can conclude that SOC and Temperature are weakly (negatively) correlated with a correlation 
 #coefficient of -0.3690404 and p-value of 2.2e-16.
 
